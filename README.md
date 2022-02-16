@@ -9,5 +9,5 @@ An interactive online quiz system portal using TCP  multithreading to cater unli
         In the client-server system, the data processing is handled by the server and the response is provided to the client.
 
          There are two programs, Server and Client .
-         Server waits for Clients to connect , once the connection is established after  successful login of the Client , the Server retrieves quiz questions from database using    JDBC connectivity and stores them in HashMap data structure which is later sent to Client.
+         Server waits for Clients to connect , once the connection is established after  successful login of the Client , the Server retrieves quiz questions from database using JDBC connectivity and stores them in HashMap data structure which is later sent to Client.
          After the successful submission of the quiz by Client , the score secured by the Client is sent back to Server which uploads the score to database using JDBC connectivity.
